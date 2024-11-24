@@ -198,5 +198,59 @@
     font-size: 1rem; /* Adjust button font size */
   }
 
+  #experience .experience-details-container {
+    display: flex;
+    flex-direction: column; /* Stack expertise sections vertically */
+    align-items: center; /* Center align sections */
+    gap: 2rem; /* Add spacing between sections */
+  }
+
+  #experience .details-container {
+    width: 100%; /* Ensure containers take the full screen width */
+    padding: 1rem; /* Add padding for readability */
+    box-sizing: border-box; /* Include padding in width calculations */
+    background: #f9f9f9; /* Optional background for clarity */
+    border-radius: 8px; /* Optional rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for aesthetics */
+    text-align: center; /* Center align text */
+  }
+
+  #experience .experience-sub-title {
+    font-size: 1.5rem; /* Ensure title font size fits smaller screens */
+    margin-bottom: 1rem; /* Space below the title */
+    word-wrap: break-word; /* Prevent long words from overflowing */
+  }
+
+  #experience .article-container {
+    display: flex;
+    flex-direction: column; /* Stack articles vertically */
+    gap: 1rem; /* Add spacing between articles */
+    align-items: center; /* Center align articles */
+  }
+
+  #experience article {
+    display: flex;
+    align-items: center; /* Vertically center icon and text */
+    gap: 0.5rem; /* Add space between icon and text */
+    text-align: left; /* Align text for better readability */
+    width: 90%; /* Ensure articles fit within the container */
+    max-width: 400px; /* Optional max width for better alignment */
+    margin: 0 auto; /* Center articles horizontally */
+  }
+
+  #experience h3 {
+    font-size: 1rem; /* Reduce font size for smaller screens */
+    word-wrap: break-word; /* Prevent text overflow */
+  }
+
+  #experience p {
+    font-size: 0.9rem; /* Adjust paragraph font size */
+  }
+
+  #experience img.icon {
+    width: 24px; /* Smaller icons for compact display */
+    height: 24px;
+  }
+
   
 }
