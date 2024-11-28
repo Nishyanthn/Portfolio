@@ -52,6 +52,35 @@
       width: calc(33.33% - 2rem); /* 3 containers per row */
     }
     
+    #projects .experience-details-container {
+      display: flex;
+      flex-direction: column; /* Stack projects vertically */
+      gap: 2rem; /* Add spacing between projects */
+    }
+  
+    #projects .details-container {
+      width: 100%; /* Full width for each project container */
+      margin: 0 auto; /* Center the project container */
+      display: flex;
+      flex-direction: column; /* Ensure inner alignment is vertical */
+      align-items: center; /* Center content horizontally */
+      text-align: center; /* Center-align text */
+    }
+  
+    #projects .project-img {
+      width: 90%; /* Make images responsive */
+      height: auto; /* Maintain aspect ratio */
+      margin-bottom: 1rem; /* Add spacing below images */
+    }
+  
+    #projects .project-title {
+      font-size: 1.5rem; /* Adjust font size for titles */
+      margin: 1rem 0; /* Add spacing around the title */
+    }
+  
+    #projects .btn-container {
+      margin-top: 1rem; /* Add spacing above buttons */
+    }
     
   }
   
@@ -251,6 +280,7 @@
     width: 24px; /* Smaller icons for compact display */
     height: 24px;
   }
-
   
 }
+
+
